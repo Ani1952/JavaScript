@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(121, 121, 133);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main h1{
+    margin: 10px;
+    padding: 20px;
+}
+.main h2{
+    margin: 4px;
+    padding: 10px;
+    font-size: 3em;
+}
+
+.btn-save,.btn-clear{
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background: red;
+    font-weight: 700;
+    width:200px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    font-size: 2em;
+}
+p{
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+label{
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons .btn-add,
+.buttons .btn-sub{
+    border:none;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    background: red;
+    font-weight: 700;
+    width:90px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    font-size: 4em;
+}
